@@ -1,0 +1,31 @@
+[
+    {
+        "id": 0,
+        "name": "Unassigned",
+        "role": "Unassigned",
+        "totalHour": 0,
+        "remainingHour": 0
+    },
+    {
+        "id": 1,
+        "name": "Şevval Özdaban",
+        "role": "Developer",
+        "totalHour": 40,
+        "remainingHour": 40
+    },
+    {
+        "id": 2,
+        "name": "Sinan Alkan",
+        "role": "Developer",
+        "totalHour": 50,
+        "remainingHour": 50
+    },
+    {
+        "id": 3,
+        "name": "Gürkan Albayrak",
+        "role": "Analyst",
+        "totalHour": 10,
+        "remainingHour": 10
+    }
+
+]

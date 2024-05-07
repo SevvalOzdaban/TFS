@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import PBIs from './components/PBIs/PBIs';
+import Users from './components/Users/UserList';
+import SprintList from './components/Sprints/SprintList';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <br/>
+      <Routes>
+        <Route path="pbis" element={<PBIs />} />
+        <Route path="sprints" element={<SprintList />} />
+        <Route path="users" element={<Users />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

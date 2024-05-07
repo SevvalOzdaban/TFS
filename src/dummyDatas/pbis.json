@@ -1,0 +1,30 @@
+ [
+    {
+        "id": 0,
+        "name": "call center dashboard da Newface ekranı",
+        "desc": "lorem ipsum",
+        "assignedUserId": "1",
+        "effort": "5",
+        "statu": 2,
+        "sprintId": 2
+    },
+    {
+        "id": 1,
+        "name": "Banka Kartı başvurusu ekranları",
+        "desc": "lorem ipsum",
+        "assignedUserId": "2",
+        "effort": "5",
+        "statu": 2,
+        "sprintId": 0
+    },
+    {
+        "id": 2,
+        "name": "Mobil den e-devlete erişimi",
+        "desc": "lorem ipsum",
+        "assignedUserId": "1",
+        "effort": "1",
+        "statu": 2,
+        "sprintId": 1
+    }
+
+]

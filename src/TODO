@@ -1,0 +1,25 @@
+sol taraf =>>> pbi içerisinde  efor, name ,desc editlenebilir.  DONE
+               pbida sprinte al butonu olacak, sağ tarafta sadece sprinte alınanlar görünecek.   DONE
+
+sağ taraf =>>> sprintte task ekle buton ile, popup ile task ekleme alanı göster, DONE
+               taskın yaında atanacak kişi olsun DONE
+               kaydedilen tasklar sprintin altında madde olarak görünsün DONE
+
+******* YAPILACAKLAR *******
+            pbi ve sprintte kaydet butonu olmalı ve kaydete bastığında add dispatchi atmalı DONE
+            task eklendi atama yapıldıysa pbida task atandı yazsın yoksa unassigned yazsın.
+            sprintten çıkardığında o pbi'ya ait taskları da çıkarmalısın
+            selectedSprint değiştirildiğinde pbi listesinden sadece o sprinte ait olanlar listelenmeli
+            add to sprint ile hem pbi statüsü değişmeli hem de o anda hangi sprint seçili ise; pbi'ın sprintId'si değiştirilmeli
+
+********NEXT STEPS******** 
+            Elementlerin css düzenlemeleri
+            üst tarafa menübar eklenmesi 
+            extract to sprint delete sprint
+
+
+
+             {/* <SelectSprint />
+      <PBIs />
+      <Users />
+      <SprintList /> */}

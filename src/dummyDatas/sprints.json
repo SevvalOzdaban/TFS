@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "name": "Sprint1",
+        "location": "ZK",
+        "startDate": "2023-01-25",
+        "endDate": "2023-01-26"
+    },
+    {
+        "id": 1,
+        "name": "Sprint2",
+        "location": "ZK",
+        "startDate": "2023-01-27",
+        "endDate": "2023-01-28"
+    },
+    {
+        "id": 2,
+        "name": "Sprint3",
+        "location": "ZK",
+        "startDate": "2023-01-29",
+        "endDate": "2023-01-30"
+    }
+]
