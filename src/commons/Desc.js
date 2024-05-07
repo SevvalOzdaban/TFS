@@ -17,7 +17,7 @@ export default function Desc(props) {
             label="Açıklama"
             disabled={!props.editable}
             onChange={handleChange}
-            multiline
+            multiline 
             maxRows={4}
         />
     )
